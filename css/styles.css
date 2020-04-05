@@ -1,0 +1,178 @@
+
+body {
+  font-family:'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Container Section */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Download Button */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section*/
+
+#features {
+  position: relative;
+}
+
+.feature-div {
+  padding: 2%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section  */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  font-family: "Montserrat";
+}
+
+.footer-icon {
+  padding: 15px;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
